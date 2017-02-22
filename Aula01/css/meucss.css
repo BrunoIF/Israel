@@ -1,0 +1,134 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body {
+}
+
+h2{
+    color: #292929;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    letter-spacing: 3px;
+    padding: 10px 0
+}
+h2:after{
+    content: '';
+    padding-bottom: 5px;
+    border-bottom: 5px solid #47b475;
+    width: 27%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+h3{
+    color: #141414;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 1px;
+    font-weight: lighter;
+}
+
+.form-header{
+    margin-bottom: 30px
+}
+
+.resultados{
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+}
+
+.valores{
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+    background: #f5f5f5;
+    font-family: Calibri;
+    font-size: 25px;
+    padding: 5px;
+    box-shadow: none;
+}
+
+.valores:focus{    
+    outline: #ccc solid thin;
+}
+
+.background-image {
+    background: linear-gradient( rgba(45, 113, 74, 0.93), rgba(53, 53, 53, 0.47) ), url('../images/pexels-photo-167699.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.form{
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    width: 30%;
+    margin: 7% auto 0;
+    box-shadow: 7px 11px 34px -8px rgba(0,0,0,0.75);
+    z-index: 1;
+}
+
+.form p{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Raleway', sans-serif;
+    padding-bottom: 0;
+}
+
+.btn-custom{
+    border: 3px solid #47b475;
+    border-radius: 0;
+    color: #47b475;
+    background-color: #fff;
+    font-family: "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    border: 2px solid #47b475;
+    padding: 10px 26px;
+    width: 100%;
+    transition: all 0.5s;
+    margin: 20px auto;
+}
+
+.btn-custom:hover{
+    background: #47b475;
+    color: #fff;
+}
+
+btn-custom:focus{
+    outline: 1px solid #ccc;
+}
+
+.center-div{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.respostas{
+    width: 30%;
+    margin: 0 auto;
+    background: #141414;
+    padding: 8px 20px;
+    box-shadow: 7px 11px 34px -8px rgba(0,0,0,0.75);
+}
+
+.respostas p{
+    font-family:'Raleway', sans-serif;
+    color: #fff;
+}
+
+.respostas p:first-child{
+    padding-top: 15px;
+}
+
+.respostas p:last-child{
+    padding-bottom: 0;
+}
